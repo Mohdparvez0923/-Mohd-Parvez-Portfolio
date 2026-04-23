@@ -22,7 +22,7 @@ const Intro = () => {
                     </p>
 
                     {/* BUTTON */}
-                    <a href="public/Mohd parvez cv.pdf" download>
+                    <a href="/Mohd parvez cv.pdf" download>
                         <button className="px-5 py-2 bg-gray-300 text-zinc-800 rounded-lg font-medium
                              hover:bg-white 
                              hover:shadow-[0_0_15px_rgba(255,255,255,0.6)]
