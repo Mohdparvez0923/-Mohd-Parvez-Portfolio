@@ -47,7 +47,7 @@ const Navbar = () => {
 
            <button 
         onClick={() => window.open("https://wa.me/918802765551?text=Hello%20Parvez%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20opportunity")}
-        className="hidden md:block px-4 py-2 border border-gray-400 rounded-lg 
+        className="md:block px-4 py-2 border border-gray-400 rounded-lg 
                            hover:border-white 
                            hover:shadow-[0_0_10px_rgba(255,255,255,0.5)] 
                            transition">
