@@ -1,5 +1,17 @@
 {
-  "routes": [
-    { "src": "/(.*)", "dest": "/" }
+  "headers": [
+    {
+      "source": "/assets/(.*\\.pdf)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"Mohd parvez cv.pdf\""
+        }
+      ]
+    }
   ]
 }
