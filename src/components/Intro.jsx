@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Portfolio from "../assets/images/portfolio.png";
+import pic from "../assets/images/pic.png"
 
 const Intro = () => {
     return (
@@ -8,7 +8,7 @@ const Intro = () => {
             <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between px-6">
 
                 {/* LEFT SIDE */}
-               <div className="md:w-1/2 space-y-4 pl-0 mt-5 md:pl-20 md:pt-10">
+                <div className="md:w-1/2 space-y-4 pl-0 mt-5 md:pl-20 md:pt-10">
                     <h1 className="text-2xl text-gray-400">
                         Hi, I’m <span className="text-white font-semibold">Parvez</span> 👋
                     </h1>
@@ -27,39 +27,39 @@ const Intro = () => {
                              hover:bg-white 
                              hover:shadow-[0_0_15px_rgba(255,255,255,0.6)]
                              transition">
-                        Download CV
-                    </span>
+                            Download CV
+                        </span>
                     </a>
 
                     {/* ICONS */}
                     <div className="flex gap-6 pt-4">
                         <a href="https://github.com/Mohdparvez0923"
-                        target="blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-gray-400 text-3xl transition">
-                        <FaGithub />
-                    </a>
+                            target="blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-gray-400 text-3xl transition">
+                            <FaGithub />
+                        </a>
                         <a href="https://linkedin.com/in/mohdparvez0923"
-                        target="blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-blue-400 text-3xl transition">
-                        <FaLinkedin />
-                    </a>
+                            target="blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-400 text-3xl transition">
+                            <FaLinkedin />
+                        </a>
                     </div>
                 </div>
 
                 {/* RIGHT SIDE */}
-               <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
-  <div className="h-100 mt-2 w-full max-w-80 bg-[#1c1c1c]
-    flex items-center justify-center overflow-hidden">
+                <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
+                    <div className="h-100  w-full max-w-80 bg-[#1c1c1c]
+                         flex items-center justify-center overflow-hidden">
 
-    <img
-      src={Portfolio}
-      className="w-full h-100 object-top object-cover"
-    />
+                        <img
+                            src={pic}
+                            className="w-80 h-80 object-cover rounded-4xl border border-zinc-700 md:border-0"
+                        />
 
-  </div>
-</div>
+                    </div>
+                </div>
 
             </div>
         </div>
