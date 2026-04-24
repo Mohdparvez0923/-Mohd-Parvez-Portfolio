@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import Portfolio from "../assets/images/portfolio.png";
 
 const Intro = () => {
     return (
@@ -8,7 +8,7 @@ const Intro = () => {
             <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between px-6">
 
                 {/* LEFT SIDE */}
-                <div className="md:w-1/2 space-y-4">
+               <div className="md:w-1/2 space-y-4 pl-0 mt-5 md:pl-20 md:pt-10">
                     <h1 className="text-2xl text-gray-400">
                         Hi, I’m <span className="text-white font-semibold">Parvez</span> 👋
                     </h1>
@@ -49,17 +49,17 @@ const Intro = () => {
                 </div>
 
                 {/* RIGHT SIDE */}
-                <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
-                    <div className="h-100 bg-[#1c1c1c] border border-zinc-600 rounded-xl 
-                  flex items-center justify-center overflow-hidden">
+               <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
+  <div className="h-100 mt-2 w-full max-w-80 bg-[#1c1c1c]
+    flex items-center justify-center overflow-hidden">
 
-                        <img
-                            src="https://i.pinimg.com/1200x/29/dd/db/29dddbb74db0c68adc5358271281e03a.jpg"
-                            className="w-full h-full object-contain"
-                        />
+    <img
+      src={Portfolio}
+      className="w-full h-100 object-top object-cover"
+    />
 
-                    </div>
-                </div>
+  </div>
+</div>
 
             </div>
         </div>

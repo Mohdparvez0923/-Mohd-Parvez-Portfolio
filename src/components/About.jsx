@@ -7,11 +7,7 @@ const About = () => {
         <h1 className="text-4xl md:text-5xl font-semibold">About Me</h1>
 
         <p className="max-w-3xl text-gray-400 mt-4">
-          I’m Parvez, a MERN stack developer passionate about building modern,
-          responsive, and user-friendly web applications. I enjoy turning ideas
-          into real-world products using clean code and efficient design. With a
-          strong focus on performance and usability, I aim to create solutions
-          that not only work well but also provide a great user experience.
+          MERN Stack Developer with hands-on internship experience at Graphura India Pvt Ltd, where I built CRM dashboards using React.js and REST APIs. I've independently shipped 3+ projects including a full-stack community app and a crypto web app. Based in Delhi/NCR — actively looking for full-time roles. 
         </p>
       </div>
 

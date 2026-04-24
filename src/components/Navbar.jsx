@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 py-3">
 
         {/* Logo */}
-        <h1 className="text-2xl font-semibold">PORTFOLIO</h1>
+        <h1 className="text-2xl font-semibold">MOHD PARVEZ</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 px-6 py-2 border border-zinc-600 rounded-lg bg-zinc-800">

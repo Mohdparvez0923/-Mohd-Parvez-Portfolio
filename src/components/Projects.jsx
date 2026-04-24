@@ -73,11 +73,11 @@ const Projects = () => {
 
           {/* Links */}
           <div className="flex gap-4 mt-4">
-            <a href=" https://community-frontend-eight-murex.vercel.app/" 
+            {/* <a href=" https://community-frontend-eight-murex.vercel.app/" 
             target="blank"
             rel="noopener npreferrer"
-            className="text-blue-400 text-sm">Live</a>
-            <a href="https://github.com/Mohdparvez0923/Community"
+            className="text-blue-400 text-sm">Live</a> */}
+            <a href="https://github.com/Mohdparvez0923/CoinPulse-cryptowebapp"
             target="blank"
             rel="noopener noreferrer"
             className="text-gray-300 text-sm">GitHub</a>
@@ -105,11 +105,11 @@ const Projects = () => {
 
           {/* Links */}
           <div className="flex gap-4 mt-4">
-            <a href=" https://community-frontend-eight-murex.vercel.app/" 
+            {/* <a href=" https://community-frontend-eight-murex.vercel.app/" 
             target="blank"
             rel="noopener npreferrer"
-            className="text-blue-400 text-sm">Live</a>
-            <a href="https://github.com/Mohdparvez0923/Community"
+            className="text-blue-400 text-sm">Live</a> */}
+            <a href="https://github.com/Mohdparvez0923/EV-Dashboard"
             target="blank"
             rel="noopener noreferrer"
             className="text-gray-300 text-sm">GitHub</a>
